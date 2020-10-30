@@ -32,7 +32,7 @@ with open(csvpath) as csvfile:
             sumChanges += int(row[1]) - preValue
             totalProfit += int(row[1])
             preValue= int(row[1])
-
+print(csvreader)
 averageChanges = sumChanges/(count)
 averageChanges = round(averageChanges, 2)
 print("Financial Analysis")
